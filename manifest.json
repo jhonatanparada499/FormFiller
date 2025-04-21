@@ -1,6 +1,6 @@
 {
-    "name": "Turbofiller",
-    "description": "Autofill any form",
+    "name": "FormFiller",
+    "description": "Chrome Extension for Automated Web Form Autofill",
     "version": "1.0",
     "permissions": ["storage", "scripting", "activeTab"],
     "manifest_version": 3,

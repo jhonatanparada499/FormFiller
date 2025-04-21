@@ -1,1 +1,1 @@
-# FormFiller Chrome Extension
+# FormFiller - Chrome Extension for Automated Web Form Autofill

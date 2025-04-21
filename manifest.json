@@ -1,0 +1,16 @@
+{
+    "name": "Turbofiller",
+    "description": "Autofill any form",
+    "version": "1.0",
+    "permissions": ["storage", "scripting", "activeTab"],
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup/index.html"
+    },
+    "content_scripts": [
+      {
+        "js": ["scripts/inputTaggin.js","scripts/formFiller.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }

@@ -15,6 +15,7 @@ With predefined user data, FormFiller locates and fills text-based input fields 
 ## Screenshots
 ![Image](https://github.com/user-attachments/assets/06567941-49b7-4e12-abe0-9a40e67149cc)
 ![Image](https://github.com/user-attachments/assets/7152a86a-aa41-4fa2-94c7-20e74a8b5402)
+![Image](https://github.com/user-attachments/assets/52ecbfc9-ccd6-4081-98e6-da4b630e1b57)
 
 ## How It Works
 

@@ -1,8 +1,8 @@
 # FormFiller - Chrome Extension
 
-**FormFiller** is a lightweight, open-source Chrome extension designed to streamline the process of filling out web forms. Unlike traditional autofill tools, FormFiller works even on websites that disable autocomplete functionality, making it a powerful tool for automating repetitive form submissions.
+**FormFiller** is a lightweight, open-source Chrome extension designed to speed up the process of filling out web forms. Unlike traditional autofill tools, FormFiller works even on websites that disable autocomplete functionality, which makes it a powerful tool for automating repetitive form submissions.
 
-With predefined user data, FormFiller intelligently locates and fills text-based input fields across a variety of form types — even those built with dynamic frameworks like Google Forms or Microsoft Forms.
+With predefined user data, FormFiller locates and fills text-based input fields across a variety of form types, even those built with dynamic frameworks like Google Forms or Microsoft Forms.
 
 ## Features
 

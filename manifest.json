@@ -1,6 +1,6 @@
 {
     "name": "FormFiller",
-    "description": "Chrome Extension for Automated Web Form Autofill",
+    "description": "Autofill web forms with predefined data, even on sites that disable autocomplete.",
     "version": "1.0",
     "permissions": ["storage", "scripting", "activeTab"],
     "manifest_version": 3,

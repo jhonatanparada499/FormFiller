@@ -13,9 +13,7 @@ With predefined user data, FormFiller locates and fills text-based input fields 
 - Built to integrate with third-party extensions like "AutoFill Forms".
 
 ## Screenshots
-
-| Autofill Triggered | Form Before | Form After |
-|--------------------|-------------|------------|
+![Image](https://github.com/user-attachments/assets/52ecbfc9-ccd6-4081-98e6-da4b630e1b57)
 
 ## How It Works
 

@@ -1,2 +1,33 @@
 # FormFiller - Chrome Extension
-FormFiller is an open source and chrome-based extension that accelerates the proccess of filling up any web form. The extension essentially acts as an auto form filler when fields in a form expect text as input. What makes FormFiller unique is its ability to autofill any form in a website with predefined data even though a site doesn't allow autocomplete. 
+
+**FormFiller** is a lightweight, open-source Chrome extension designed to streamline the process of filling out web forms. Unlike traditional autofill tools, FormFiller works even on websites that disable autocomplete functionality, making it a powerful tool for automating repetitive form submissions.
+
+With predefined user data, FormFiller intelligently locates and fills text-based input fields across a variety of form types — even those built with dynamic frameworks like Google Forms or Microsoft Forms.
+
+## Features
+
+- Fills out any text-based input field using predefined data.
+- Works on websites that block the `autocomplete` attribute.
+- Supports dynamically loaded forms (Google Forms, Microsoft Forms).
+- Custom labeling system using nearby `<span>` or `<label>` text.
+- Built to integrate with third-party extensions like "AutoFill Forms".
+
+## Screenshots
+
+| Autofill Triggered | Form Before | Form After |
+|--------------------|-------------|------------|
+
+## How It Works
+
+FormFiller injects a content script into the current tab. It scans the DOM for input fields, reads nearby text nodes (like `<span>` or `<label>`) to determine the field's purpose, then applies predefined data accordingly. It also simulates user interaction to bypass restrictions on form fields.
+
+## Installation
+
+1. Clone or download this repository.
+2. Open `chrome://extensions/` in Chrome.
+3. Enable **Developer mode**.
+4. Click **Load unpacked** and select the root folder of this project.
+
+## Development Notes
+
+The script handles dynamically rendered elements by triggering input tagging and form-filling scripts on button press, ensuring compatibility even with late-loaded elements.
